@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/codedetector",
+  "version": "1.1.9",
+  "description": "Code Detector is a simple tool for detecting the language of code in text. It returns details such as extension, language, family, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/codedetector-API.git"
+  },
+  "keywords": [
+    "code detector","code detection","code detect","code api","code tool"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/codedetector-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/codedetector?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.9"
+  }
+}
